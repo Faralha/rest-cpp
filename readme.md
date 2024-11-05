@@ -1,6 +1,6 @@
 # RESTFUL API using C++
 
-vcpkg must be Installed with Crow header installed.
+vcpkg must be Installed.
 
 ## Compile locally
 
