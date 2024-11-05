@@ -6,20 +6,17 @@ vcpkg must be Installed with Crow header installed.
 
 Install vcpkg (installation may differ for each machine)
 
-Install crow, mongo-cxx-driver
+Follow instruction below.
 
-```bash
-  ./vcpkg install crow
 ```
-
-```bash
-  ./vcpkg install mongo-cxx-driver
+https://learn.microsoft.com/en-gb/vcpkg/get_started/get-started?pivots=shell-bash
 ```
 
 Compile
 
 ```bash
-  g++ -I path_to_vcpkg_installed_include_folder main.cpp -o main
+  cmake --preset=default
+  cmake --build build
 ```
 
 ## Run Server
@@ -27,5 +24,5 @@ Compile
 By default, the server will run on port 8000. Change accordingly.
 
 ```bash
-  ./main
+  ./build/main
 ```

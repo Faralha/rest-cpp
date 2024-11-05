@@ -1,0 +1,6 @@
+{
+  "dependencies": [
+    "crow",
+    "mongo-cxx-driver"
+  ]
+}
